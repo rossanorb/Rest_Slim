@@ -3,7 +3,7 @@ $token = 'a5w878a8awe8ae8aw7e8a';
 
 $data = array(  
   'name' => 'Rossano',
-  'email' => 'rossanorb@gmail.com'
+  'email' => 'rossanorb@dominio.com'
   );
 
 $ch = curl_init("http://localhost/api/users/17");
