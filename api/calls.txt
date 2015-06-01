@@ -1,0 +1,12 @@
+
+GET: http://localhost/api/users
+
+GET: http://localhost/api/users/1
+
+GET: http://localhost/api/users/search/rossano
+
+POST: http://localhost/api/users?email=rossano@gmail.com&name=rossano
+
+DELETE: http://localhost/api/users/14?name=Bianca&email=bianca@dominio.com.br
+
+
