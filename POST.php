@@ -25,7 +25,8 @@ echo $result;
 
 $data = array('name' => 'bianca', 'email' => 'bianca@dominio.com.br');
 
-$ch = curl_init('http://localhost/api/users');
+//$ch = curl_init('http://localhost/api/users');
+$ch = curl_init('http://slim/api/users');
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 curl_exec($ch);
